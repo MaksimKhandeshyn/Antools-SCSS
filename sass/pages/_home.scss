@@ -1,0 +1,187 @@
+.hero-title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 140%; /* 70px */
+  margin-top: 122px;
+  width: 600px;
+}
+.point {
+  color: var(--accent-color);
+}
+.hero-info {
+  padding-top: 30px;
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 30px;
+  width: 487px;
+}
+.tools-header {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 130%;
+  /* 62.4px */
+  padding-top: 200px;
+}
+
+.tools-info {
+  padding-top: 25px;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 427px;
+  margin: 0 auto;
+}
+.tools-list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.tools-item {
+  margin-top: 110px;
+  flex-basis: calc(100% / 3 - 25px);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.tools-item:hover {
+  margin-top: 90px;
+}
+.tools-title {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 30px;
+  margin-top: 33px;
+}
+
+.tools-price {
+  color: rgba(255, 165, 55, 0.55);
+  font-size: 18px;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+.tools-description {
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 30px;
+  padding-top: 30px;
+  width: 326px;
+  padding: 30px 33px;
+}
+.heart {
+  margin-left: 33px;
+}
+
+
+
+
+
+
+.brands-title {
+  padding-top: 55px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  line-height: normal;
+}
+.newcome-content {
+  display: flex;
+}
+
+.newcome-tools-header {
+  padding-top: 220px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 130%; /* 62.4px */
+}
+.newcome-tools-info {
+  padding-top: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  width: 427px;
+}
+/*Эту секцию нужно сделать что бы инструменты были справа*/
+.newcome-tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-left: 197px;
+  padding-top: 220px;
+  flex-direction: column;
+}
+.newcome-tools-item {
+  flex-basis: calc(100% / 2 - 24px);
+  column-gap: 50px;
+}
+.newcome-tools-item:hover {
+  background: rgba(40, 48, 54, 0.6);
+}
+
+.newcome-tools-title {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.newcome-tools-price {
+  color: rgba(255, 165, 55, 0.55);
+  font-size: 18px;
+  line-height: normal;
+}
+
+.newcome-tools-description {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+  line-height: 30px; /* 214.286% */
+  width: 245px;
+}
+.name {
+  color: rgba(255, 253, 253, 0.78);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.39px;
+}
+
+.position {
+  color: rgba(255, 253, 253, 0.55);
+  font-size: 16px;
+  line-height: normal;
+}
+.comment-info {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: 0.21px;
+  width: 393px;
+  margin-left: 119px;
+}
+
+.contributor-title {
+  padding-top: 250px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 130%; /* 62.4px */
+}
+.contributor-info {
+  padding-top: 25px;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.footer-container {
+  display: flex;
+}

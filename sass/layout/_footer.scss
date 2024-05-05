@@ -1,0 +1,42 @@
+.logo-footer {
+  padding-top: 73px;
+  padding-bottom: 27px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  line-height: normal;
+}
+.antools-info {
+  padding-top: 21px;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+  line-height: 25px; /* 178.571% */
+  width: 260px;
+}
+.contact-list {
+  display: flex;
+}
+.contact-item {
+  margin-top: 70px;
+}
+.contact-item:nth-child(1) {
+  margin-left: 156px;
+}
+.contact-item + .contact-item {
+  margin-left: 164px;
+}
+.contact-title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.55);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
